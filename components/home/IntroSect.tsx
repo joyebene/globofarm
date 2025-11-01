@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const IntroSection = () => {
   return (
-    <section className="w-full py-16 md:py-30 bg-white">
+    <section className="w-full py-16 md:py-30 bg-white overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
         {/* Image Side */}
