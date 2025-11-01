@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Brand Palette */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --gloto-dark: #0F4C23;
+  --gloto-mid: #5FA85D;
+  --gloto-gold: #C9A646;
+
+  --font-sans: "Inter", "Poppins", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-gloto-dark: var(--gloto-dark);
+  --color-gloto-mid: var(--gloto-mid);
+  --color-gloto-gold: var(--gloto-gold);
+
+  --font-sans: var(--font-sans);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.25s ease-out forwards;
+}
+
