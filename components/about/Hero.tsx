@@ -6,10 +6,10 @@ import { Award, Users, TrendingUp, Leaf } from "lucide-react";
 
 const Hero = () => {
     const stats = [
-        { number: "50+", label: "Hectares Cultivated", icon: Leaf },
-        { number: "100+", label: "Farmers Empowered", icon: Users },
-        { number: "10+", label: "Years Experience", icon: Award },
-        { number: "50%", label: "Yield Improvement", icon: TrendingUp },
+        { number: "++", label: "Hectares Cultivated", icon: Leaf },
+        { number: "++", label: "Farmers Empowered", icon: Users },
+        { number: "++", label: "Years Experience", icon: Award },
+        { number: "%", label: "Yield Improvement", icon: TrendingUp },
       ];
 
   return (

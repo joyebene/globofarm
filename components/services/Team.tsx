@@ -71,7 +71,7 @@ const Team = () => {
                                 </div>
                                 <div>
                                     <h4 className="text-white font-semibold mb-1">100+ Farmers Trained</h4>
-                                    <p className="text-gray-400 text-sm">Continuous education and skill development programs</p>
+                                    <p className="text-gray-500 text-sm">Continuous education and skill development programs</p>
                                 </div>
                             </div>
 

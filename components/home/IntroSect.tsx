@@ -18,7 +18,7 @@ const IntroSection = () => {
           className="relative w-full h-[300px] md:h-[450px] rounded-2xl overflow-hidden shadow-md"
         >
           <Image
-            src="/home/imgf.webp"
+            src="/about/img (1).jpg"
             alt="Gloto Farms"
             fill
             className="object-cover"

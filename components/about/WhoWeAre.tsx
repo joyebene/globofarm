@@ -105,10 +105,9 @@ const WhoWeAre = () => {
               whileInView={{ scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.6 }}
-              className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-6 border-4 border-green-100"
+              className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-3 md:p-6 border-4 border-green-100"
             >
-              <div className="text-4xl font-bold text-green-700">10+</div>
-              <div className="text-sm text-gray-600 font-medium mt-1">Years Growing</div>
+              <div className="text-2xl font-bold text-green-700">Growing+</div>
             </motion.div>
           </motion.div>
 

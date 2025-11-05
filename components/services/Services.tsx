@@ -58,7 +58,7 @@ const Services = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-700">
                     Services
                 </h2>
-                <p className="mt-2 text-sm md:text-base max-w-2xl mx-auto">
+                <p className="mt-2 text-sm md:text-base max-w-2xl mx-auto text-gray-500">
                     Quality grown with care. Processed with integrity.
                 </p>
             </motion.div>

@@ -14,7 +14,7 @@ const featuresData = [
             "We produce high-quality palm oil through sustainable and ethical practices. From carefully managed plantations to modern processing.",
         items: ["Red Palm Oil", "Refined Palm Oil", "Palm Kernel Oil", "Organic Processing"],
         buttonText: "Learn More About Our Process",
-        image: "/about/img (3).jpg",
+        image: "/imgs/oil.jpg",
         reverse: false,
     },
     {
@@ -43,7 +43,7 @@ export default function Features() {
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-700">
                     Featured Services
                 </h2>
-                <p className="mt-2 text-sm md:text-base max-w-2xl mx-auto">
+                <p className="mt-2 text-sm md:text-base max-w-2xl mx-auto text-gray-500">
                     Quality grown with care. Processed with integrity.
                 </p>
             </motion.div>
