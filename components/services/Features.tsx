@@ -2,7 +2,7 @@
 
 import { Droplets } from "lucide-react";
 import { motion } from "framer-motion";
-import { GiSprout } from "react-icons/gi";
+import { GiGingerbreadMan, GiSprout } from "react-icons/gi";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
@@ -15,9 +15,9 @@ const featuresData = [
             "We produce high-quality palm oil through sustainable and ethical practices. From carefully managed plantations to modern processing.",
         items: ["Red Palm Oil", "Refined Palm Oil", "Palm Kernel Oil", "Organic Processing"],
         buttonText: "Learn More About Our Process",
-        image: "/imgs/oil.jpg",
+        image: "/imgs/oils3.jpeg",
         reverse: false,
-        slug: "palm-oil", // Add slug for routing
+        slug: "palm-oil",
     },
     {
         badgeIcon: <GiSprout className="w-5 h-5 text-gloto-gold" />,
@@ -29,7 +29,19 @@ const featuresData = [
         buttonText: "Learn More About Our Process",
         image: "/about/img (8).jpg",
         reverse: true,
-        slug: "rice", // Add slug for routing
+        slug: "rice",
+    },
+    {
+        badgeIcon: <GiGingerbreadMan className="w-5 h-5 text-gloto-gold" />,
+        badgeText: "Featured Service",
+        title: "Organic Ginger Cultivation",
+        description:
+            "We cultivate premium organic ginger using natural methods that preserve its medicinal properties, rich flavor, and aroma for domestic and industrial markets.",
+        items: ["Fresh Ginger Root", "Dried Ginger", "Medicinal Grade", "Export Quality"],
+        buttonText: "Learn More About Our Process",
+        image: "/imgs/ginger.webp",
+        reverse: false,
+        slug: "ginger",
     },
 ];
 

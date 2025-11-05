@@ -37,11 +37,11 @@ const productsData = {
       "Origin": "Nigeria",
     },
     images: [
-      "/imgs/oil.jpg",
-      "/imgs/oil.jpg",
-      "/imgs/oil.jpg",
-      "/imgs/oil.jpg",
-      "/imgs/oil.jpg",
+      "/imgs/oils3.jpeg",
+      "/imgs/oil2.jpeg",
+      "/imgs/oil3.png",
+      "/imgs/oil4.jpg",
+      "/imgs/oil5.webp",
     ],
   },
   rice: {
@@ -78,6 +78,42 @@ const productsData = {
       "/imgs/img (5).jpg",
       "/imgs/img (1).jpg",
       "/imgs/img (7).jpg",
+    ],
+  },
+  ginger: {
+    title: "Organic Ginger Cultivation",
+    description:
+      "We cultivate premium organic ginger using natural methods that preserve its medicinal properties, rich flavor, and aroma for domestic and industrial markets.",
+    fullDescription:
+      "Our ginger production combines organic farming methods with modern agricultural techniques to preserve the natural flavor, aroma, and medicinal properties of this valuable root. We carefully manage every stage from planting to harvesting, ensuring our ginger meets the highest standards for both the confectionery and pharmaceutical industries. Our processed ginger serves growing domestic and industrial demands while maintaining its therapeutic value.",
+    features: [
+      "Fresh Ginger Root",
+      "Dried Ginger",
+      "Medicinal Grade",
+      "Export Quality",
+    ],
+    benefits: [
+      "100% Organic Cultivation",
+      "Natural Medicinal Properties",
+      "Rich Flavor & Aroma",
+      "Pharmaceutical Grade",
+      "Confectionery Industry Ready",
+      "International Standards",
+    ],
+    specifications: {
+      "Product Type": "Organic Ginger",
+      "Forms Available": "Fresh Root & Dried",
+      "Grade": "Medicinal & Food Grade",
+      "Packaging": "Bulk & Retail Sizes",
+      "Certification": "Organic Certified",
+      "Origin": "Nigeria",
+    },
+    images: [
+      "/imgs/ginger.webp",
+      "/imgs/ginger2.webp",
+      "/imgs/ginger3.webp",
+      "/imgs/ginger4.jpg",
+      "/imgs/ginger5.jpg",
     ],
   },
 };
