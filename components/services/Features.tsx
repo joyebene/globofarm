@@ -4,6 +4,7 @@ import { Droplets } from "lucide-react";
 import { motion } from "framer-motion";
 import { GiSprout } from "react-icons/gi";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const featuresData = [
     {
@@ -16,6 +17,7 @@ const featuresData = [
         buttonText: "Learn More About Our Process",
         image: "/imgs/oil.jpg",
         reverse: false,
+        slug: "palm-oil", // Add slug for routing
     },
     {
         badgeIcon: <GiSprout className="w-5 h-5 text-gloto-gold" />,
@@ -27,10 +29,17 @@ const featuresData = [
         buttonText: "Learn More About Our Process",
         image: "/about/img (8).jpg",
         reverse: true,
+        slug: "rice", // Add slug for routing
     },
 ];
 
 export default function Features() {
+    const router = useRouter();
+
+    const handleLearnMore = (slug: string) => {
+        router.push(`/products/${slug}`);
+    };
+
     return (
         <div className="space-y-20 my-16 md:my-32">
             <motion.div
@@ -57,10 +66,10 @@ export default function Features() {
                     transition={{ duration: 0.8 }}
                     className="relative rounded-3xl overflow-hidden shadow-2xl bg-linear-to-br from-gloto-dark to-gloto-mid"
                 >
-                    <div className={`grid lg:grid-cols-2 gap-0 ${feature.reverse ? "flex-row-reverse" : ""}`}>
+                    <div className={`grid lg:grid-cols-2 gap-0 ${feature.reverse ? "lg:flex-row-reverse" : ""}`}>
 
                         {/* CONTENT SIDE */}
-                        <div className="p-6 md:p-14 flex flex-col justify-center">
+                        <div className={`p-6 md:p-14 flex flex-col justify-center ${feature.reverse ? "lg:order-2" : ""}`}>
                             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full w-fit mb-6">
                                 {feature.badgeIcon}
                                 <span className="text-green-100 text-xs md:text-sm font-semibold">
@@ -88,6 +97,7 @@ export default function Features() {
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
+                                onClick={() => handleLearnMore(feature.slug)}
                                 className="px-3 md:px-6 py-2 md:py-3 bg-white text-green-800 font-bold rounded-lg shadow-lg hover:shadow-xl transition-all w-fit"
                             >
                                 {feature.buttonText}
@@ -96,7 +106,7 @@ export default function Features() {
 
 
                         {/* IMAGE SIDE */}
-                        <div className="relative min-h-[400px] lg:min-h-[500px]">
+                        <div className={`relative min-h-[400px] lg:min-h-[500px] ${feature.reverse ? "lg:order-1" : ""}`}>
                             <Image
                                 src={feature.image}
                                 alt={feature.title}
