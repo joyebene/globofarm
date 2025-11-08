@@ -355,7 +355,7 @@ const ContactPage = () => {
 
                   {/* Map */}
                <div className="bg-gray-100 rounded-2xl overflow-hidden shadow-lg h-80 relative">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.019184513598!2d7.366411474833386!3d9.062014091000652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e75c71d505b7b%3A0xc31669e984937e4!2sThe%20Paradise%20Court%20IDU!5e0!3m2!1sen!2sng!4v1762610034433!5m2!1sen!2sng" width="100%" height="100%"     allowFullScreen=""
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.019184513598!2d7.366411474833386!3d9.062014091000652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e75c71d505b7b%3A0xc31669e984937e4!2sThe%20Paradise%20Court%20IDU!5e0!3m2!1sen!2sng!4v1762610034433!5m2!1sen!2sng" width="100%" height="100%"     allowFullScreen
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
