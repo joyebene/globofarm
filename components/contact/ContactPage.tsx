@@ -64,7 +64,7 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: ["info@glotofarms.com", "support@glotofarms.com"],
+      details: ["info@glotofarms.com"],
       color: "purple"
     },
     {

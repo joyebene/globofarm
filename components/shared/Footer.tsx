@@ -45,7 +45,7 @@ const Footer = () => {
           <h4 className="font-semibold text-lg text-white mb-4">Get In Touch</h4>
           <p className="text-gray-300 text-sm mt-1">T10, 04 Paradise Court Idu</p>
           <p className="text-gray-300 text-sm">Abuja, Nigeria</p>
-          <p className="text-gray-300 text-sm mt-1">glotofarms@gmail.com</p>
+          <p className="text-gray-300 text-sm mt-1">info@glotofarms.com</p>
 
           <div className="flex items-center gap-3 mt-4">
             <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition">
