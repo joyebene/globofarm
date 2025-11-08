@@ -6,6 +6,8 @@ import { usePathname } from 'next/navigation';
 import { LuBriefcase, LuChrome, LuPhone, LuUser } from 'react-icons/lu';
 import { HiMenu } from 'react-icons/hi';
 import { CgClose } from 'react-icons/cg';
+import Image from "next/image";
+
 
 interface DesktopNavProps {
   url: string;
@@ -45,9 +47,14 @@ const Navbar = () => {
           <DesktopNav url='/' name={<><LuChrome className="inline mr-1" /> Home</>} isActive={pathName === "/"} />
           <DesktopNav url='/about-us' name={<><LuUser className='inline mr-1' /> About Us</>} isActive={pathName === "/about-us"} />
           {/* Logo */}
-          <div className='p-2 bg-gloto-dark rounded-full text-white shadow shadow-gloto-gold'>
+          <div className='relative w-15 h-15 bg-gloto-dark rounded-full shadow shadow-gloto-gold'>
             <Link href="/">
-              <span className='text-2xl font-bold'>GF</span>
+              <Image
+                src="/gloto-logo.jpg"
+                alt="Gloto Farms Logo"
+                fill
+                className="object-cover rounded-full"
+              />
             </Link>
           </div>
           <DesktopNav url='/services' name={<><LuBriefcase className='inline mr-1' /> Services</>} isActive={pathName === "/services"} />
@@ -59,17 +66,25 @@ const Navbar = () => {
       <div className='md:hidden'>
         <div className='flex items-center justify-between'>
           {/* Logo */}
+
           <div className='flex items-center gap-1'>
-            <div className='p-2 bg-gloto-dark rounded-full text-white shadow shadow-gloto-gold'>
+            <div className='relative p-2  w-10 h-10 bg-gloto-dark rounded-full text-white shadow shadow-gloto-gold'>
               <Link href="/">
-                <span className='text-lg font-bold'>GF</span>
+                <Image
+                src="/gloto-logo.jpg"
+                alt="Gloto Farms Logo"
+                fill
+                className="object-cover rounded-full"
+              />
               </Link>
             </div>
-            <div className='flex flex-col text-sm font-bold'>
+
+            <div className='flex flex-col text-sm font-bold leading-tight'>
               <span>Gloto</span>
               <span>Farms</span>
             </div>
           </div>
+
 
           <div>
             {mobileOpen ? <CgClose className='text-gray-900' size={35} onClick={() => setMobileOpen(false)} /> : <HiMenu className='text-gray-900' size={35} onClick={() => setMobileOpen(true)} />}

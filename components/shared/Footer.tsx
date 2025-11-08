@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
 
@@ -10,10 +11,22 @@ const Footer = () => {
 
         {/* Logo & About */}
         <div>
-          <h3 className="text-2xl font-bold text-gloto-mid">GLOTO FARMS</h3>
+          <div className="flex items-center gap-1 md:gap-2">
+          <div className='relative w-10 h-10 bg-gloto-dark rounded-full shadow shadow-gloto-gold'>
+            <Image
+              src="/gloto-logo.jpg"
+              alt="Gloto Farms Logo"
+              fill
+              className="object-cover rounded-full"
+            />
+        
+            </div>
+            <h3 className="text-2xl font-bold text-gloto-mid">GLOTO FARMS</h3>
+          </div>
+         
           <p className="mt-4 text-gray-300 text-sm leading-relaxed">
-            Nurturing the land, <span className="text-gloto-gold"> Nourishing Lives. <br /></span>  
-            We are committed to sustainable agriculture, food security, 
+            Nurturing the land, <span className="text-gloto-gold"> Nourishing Lives. <br /></span>
+            We are committed to sustainable agriculture, food security,
             and community empowerment across Africa.
           </p>
         </div>
@@ -49,7 +62,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-3 mt-4">
             <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition">
-              {<FaWhatsapp size={18} />}            
+              {<FaWhatsapp size={18} />}
             </a>
             <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition">
               {<FaInstagram size={18} />}
