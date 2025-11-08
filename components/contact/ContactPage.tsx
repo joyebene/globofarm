@@ -247,6 +247,7 @@ const ContactPage = () => {
                   <div className="relative">
                     <MessageSquare className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                     <select
+                      aria-label="inqury type"
                       name="subject"
                       value={formData.subject}
                       onChange={handleChange}
@@ -352,16 +353,12 @@ const ContactPage = () => {
                   </ul>
                 </div>
 
-                {/* Map Placeholder */}
-                <div className="bg-gray-100 rounded-2xl overflow-hidden shadow-lg h-80 relative">
-                  <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                    <div className="text-center">
-                      <MapPin className="w-12 h-12 mx-auto mb-2" />
-                      <p className="text-sm font-medium">[Map Location]</p>
-                      <p className="text-xs mt-1">Abuja, FCT, Nigeria</p>
-                    </div>
-                  </div>
-                </div>
+                  {/* Map */}
+               <div className="bg-gray-100 rounded-2xl overflow-hidden shadow-lg h-80 relative">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.019184513598!2d7.366411474833386!3d9.062014091000652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e75c71d505b7b%3A0xc31669e984937e4!2sThe%20Paradise%20Court%20IDU!5e0!3m2!1sen!2sng!4v1762610034433!5m2!1sen!2sng" width="100%" height="100%"     allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"></iframe>
+              </div>
 
                 {/* Quick Stats */}
                 <div className="grid grid-cols-2 gap-4">
