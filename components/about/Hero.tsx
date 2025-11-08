@@ -13,10 +13,10 @@ const Hero = () => {
       ];
 
   return (
-     <section className="relative w-full h-[70vh] bg-linear-to-r from-black to-gloto-dark from-60% ">
+     <section className="relative w-full h-[50vh] bg-linear-to-r from-black to-gloto-dark from-60% ">
             <div className="absolute inset-0 bg-[url('/home/hero-img1.jpg')] opacity-28" />
             
-            <div className="relative max-w-6xl mx-auto h-full flex flex-col justify-center px-6 pt-15">
+            <div className="relative max-w-6xl mx-auto mt-15 md:mt-20 px-6 pt-15">
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -31,12 +31,12 @@ const Hero = () => {
                   We Grow With Purpose
                 </h1>
                 <p className="text-green-100 text-[15px] md:text-base mt-4 max-w-2xl">
-                  Farming with the future in mind, cultivating prosperity for all
+                 GlotoFarms is committed to smart, efficient, and sustainable farming—creating lasting value for our communities and the environment.
                 </p>
               </motion.div>
     
               {/* Stats Bar */}
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
@@ -51,7 +51,7 @@ const Hero = () => {
                     <div className="text-green-200 text-sm">{stat.label}</div>
                   </div>
                 ))}
-              </motion.div>
+              </motion.div> */}
             </div>
           </section>
   )

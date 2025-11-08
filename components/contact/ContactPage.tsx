@@ -52,15 +52,15 @@ const ContactPage = () => {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: ["GLOTO FARMS Headquarters", "Abuja, FCT, Nigeria"],
+      details: ["T10, 04 Paradise Court Idu", "Abuja, FCT, Nigeria"],
       color: "green"
     },
-    {
-      icon: Phone,
-      title: "Call Us",
-      details: ["+234 XXX XXX XXXX", "+234 XXX XXX XXXX"],
-      color: "blue"
-    },
+    // {
+    //   icon: Phone,
+    //   title: "Call Us",
+    //   details: ["+234 XXX XXX XXXX", "+234 XXX XXX XXXX"],
+    //   color: "blue"
+    // },
     {
       icon: Mail,
       title: "Email Us",
@@ -113,7 +113,7 @@ const ContactPage = () => {
       </section>
 
       {/* CONTACT INFO CARDS */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50 overflow-hidden">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {contactInfo.map((info, idx) => (
@@ -143,7 +143,7 @@ const ContactPage = () => {
       </section>
 
       {/* CONTACT FORM & MAP SECTION */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white overflow-hidden">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid lg:grid-cols-5 gap-12 lg:gap-16">
 
@@ -365,11 +365,11 @@ const ContactPage = () => {
 
                 {/* Quick Stats */}
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-white rounded-xl p-5 border-2 border-gray-100 text-center">
+                  <div className="bg-white rounded-xl p-5 border-2 border-gray-100 text-center shadow-md">
                     <div className="text-3xl font-bold text-green-700">24h</div>
                     <div className="text-sm text-gray-600 mt-1">Response Time</div>
                   </div>
-                  <div className="bg-white rounded-xl p-5 border-2 border-gray-100 text-center">
+                  <div className="bg-white rounded-xl p-5 border-2 border-gray-100 text-center shadow-md">
                     <div className="text-3xl font-bold text-green-700">100%</div>
                     <div className="text-sm text-gray-600 mt-1">Satisfaction</div>
                   </div>

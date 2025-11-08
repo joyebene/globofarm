@@ -59,11 +59,18 @@ const Navbar = () => {
       <div className='md:hidden'>
         <div className='flex items-center justify-between'>
           {/* Logo */}
-          <div className='p-2 bg-gloto-dark rounded-full text-white shadow shadow-gloto-gold'>
-            <Link href="/">
-              <span className='text-lg font-bold'>GF</span>
-            </Link>
+          <div className='flex items-center gap-1'>
+            <div className='p-2 bg-gloto-dark rounded-full text-white shadow shadow-gloto-gold'>
+              <Link href="/">
+                <span className='text-lg font-bold'>GF</span>
+              </Link>
+            </div>
+            <div className='flex flex-col text-sm font-bold'>
+              <span>Gloto</span>
+              <span>Farms</span>
+            </div>
           </div>
+
           <div>
             {mobileOpen ? <CgClose className='text-gray-900' size={35} onClick={() => setMobileOpen(false)} /> : <HiMenu className='text-gray-900' size={35} onClick={() => setMobileOpen(true)} />}
 

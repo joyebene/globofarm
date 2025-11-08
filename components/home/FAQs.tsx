@@ -8,7 +8,7 @@ import Image from "next/image";
 const faqs = [
   {
     question: "What type of crops do you cultivate?",
-    answer: "We cultivate rice, ginger, pepper, maize, and cassava using sustainable and modern farming practices to ensure high yield and quality produce.",
+    answer: "We cultivate palmoil, rice, ginger, pepper, maize, and cassava using sustainable and modern farming practices to ensure high yield and quality produce.",
   },
   {
     question: "Do you offer training for new farmers?",
@@ -106,5 +106,5 @@ const FAQSection = () => {
     </section>
   );
 };
-``
+
 export default FAQSection;

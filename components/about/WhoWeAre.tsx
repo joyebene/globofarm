@@ -28,7 +28,7 @@ const WhoWeAre = () => {
             </h2>
 
             <p className="mt-6 text-gray-600 text-sm md:text-base leading-relaxed">
-              GLOTO FARMS is a forward-thinking agricultural enterprise dedicated to revolutionizing food systems across Africa. We bridge traditional farming wisdom with cutting-edge agri-tech to deliver exceptional yields while nurturing the land.
+              GLOTO FARMS is a forward thinking and fast rising agricultural enterprise dedicated to revolutionizing food systems across Africa. We bridge traditional farming wisdom with cutting-edge agri-tech to deliver exceptional yields while nurturing the land.
             </p>
 
             <p className="mt-4 text-gray-600 text-sm md:text-base  leading-relaxed">
