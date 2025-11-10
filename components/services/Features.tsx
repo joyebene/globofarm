@@ -39,7 +39,7 @@ const featuresData = [
             "We cultivate premium organic ginger using natural methods that preserve its medicinal properties, rich flavor, and aroma for domestic and industrial markets.",
         items: ["Fresh Ginger Root", "Dried Ginger", "Medicinal Grade", "Export Quality"],
         buttonText: "Learn More About Our Process",
-        image: "/imgs/ginger1.avif",
+        image: "/imgs/ginger6.webp",
         reverse: false,
         slug: "ginger",
     },

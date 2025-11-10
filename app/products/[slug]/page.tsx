@@ -38,10 +38,10 @@ const productsData = {
     },
     images: [
       "/imgs/oils.jpg",
-      "/imgs/oil2.jpeg",
-      "/imgs/oil3.jpg",
-      "/imgs/oil4.webp",
-      "/imgs/oil6.webp",
+      "/imgs/oil2.jpg",
+      "/imgs/oil4.jpg",
+      "/imgs/oil5.jpg",
+      "/imgs/oil6.jpg",
     ],
   },
   rice: {
@@ -109,9 +109,9 @@ const productsData = {
       "Origin": "Nigeria",
     },
     images: [
-      "/imgs/ginger1.avif",
-      "/imgs/ginger2.webp",
-      "/imgs/ginger3.webp", 
+      "/imgs/ginger6.webp",
+      "/imgs/ginger2.jpg",
+      "/imgs/ginger7.jpg", 
       "/imgs/ginger4.jpg",
       "/imgs/ginger5.webp",
     ],

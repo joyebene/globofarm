@@ -37,7 +37,7 @@ const CTA = () => {
               </motion.button>
             </Link>
 
-            <Link href="/service">
+            <Link href="/services">
               <motion.button
                 initial={{ opacity: 0, y: 25 }}
                 whileInView={{ opacity: 1, y: 0 }}
