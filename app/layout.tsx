@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gloto Farm",
+  title: "Gloto Farms",
   description: " where innovation meets sustainability in agriculture",
 };
 
