@@ -28,6 +28,11 @@ const OurProducts = () => {
                             </p>
 
                             <p className="text-gray-500">
+                                Raw cashew nuts are widely used for edible kernels, snacks,
+                                confectioneries, oil extraction, and food processing industries.
+                            </p>
+
+                            <p className="text-gray-500">
                                 We work with NAFDAC and relevant authorities to ensure safe export standards
                                 for local and international markets.
                             </p>
