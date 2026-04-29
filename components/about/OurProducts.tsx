@@ -55,8 +55,19 @@ const OurProducts = () => {
                 </div>
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
                     {/* Image will be added here for Palm Oil */}
-                    <div className='h-[200px] md:h-[400px] relative rounded-xl order-2'>
-                        <Image src="/imgs/palm.webp" fill alt="Palm plantation" className="w-full h-auto rounded-xl" />
+                    <div className="grid grid-cols-2 gap-4">
+                        <div className="relative h-48">
+                            <Image src="/imgs/palmoil (1).jpg" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 1" className="rounded-lg" />
+                        </div>
+                        <div className="relative h-48">
+                            <Image src="/imgs/palmoil (2).jpg" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 2" className="rounded-lg" />
+                        </div>
+                        <div className="relative h-48">
+                            <Image src="/imgs/palmoil (3).jpg" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 3" className="rounded-lg" />
+                        </div>
+                        <div className="relative h-48">
+                            <Image src="/imgs/palmoil (4).jpg" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 4" className="rounded-lg" />
+                        </div>
                     </div>
                     <div className="flex flex-col justify-center space-y-4 md:order-2">
                         <div className="space-y-2">
@@ -108,8 +119,19 @@ const OurProducts = () => {
                         </div>
                     </div>
                     {/* Image will be added here for Ginger */}
-                    <div className='h-[200px] md:h-[400px] relative rounded-xl'>
-                        <Image src="/imgs/ginger.webp" fill alt="Ginger" className="w-full h-auto rounded-xl" />
+                    <div className="grid grid-cols-2 gap-4">
+                        <div className="relative h-48">
+                            <Image src="/imgs/gingerdry (1).jpg" layout="fill" objectFit="cover" alt="Ginger Collage Image 1" className="rounded-lg" />
+                        </div>
+                        <div className="relative h-48">
+                            <Image src="/imgs/gingerdry (2).jpg" layout="fill" objectFit="cover" alt="Ginger Collage Image 2" className="rounded-lg" />
+                        </div>
+                        <div className="relative h-48">
+                            <Image src="/imgs/gingerdry (3).jpg" layout="fill" objectFit="cover" alt="Ginger Collage Image 3" className="rounded-lg" />
+                        </div>
+                        <div className="relative h-48">
+                            <Image src="/imgs/gingerdry (4).jpg" layout="fill" objectFit="cover" alt="Ginger Collage Image 4" className="rounded-lg" />
+                        </div>
                     </div>
                 </div>
             </div>
