@@ -55,7 +55,7 @@ const OurProducts = () => {
                 </div>
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
                     {/* Image will be added here for Palm Oil */}
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-2 gap-4 order-2">
                         <div className="relative h-48">
                             <Image src="/imgs/palmoil (1).jpg" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 1" className="rounded-lg" />
                         </div>
