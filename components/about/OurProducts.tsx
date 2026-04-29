@@ -6,7 +6,7 @@ const OurProducts = () => {
         <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                    <div className="space-y-2 text-center mb-16 text-center w-full">
+                    <div className="space-y-2 text-center mb-16 w-full">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Our Products and Partnerships</h2>
                         <p className="text-gray-600 mt-4 text-[15px] md:text-base max-w-2xl mx-auto">
                             We partner with local farmers in Ogbomosho, Nassarawa, and Kogi to source the best quality products. We are available to export anywhere around the world at affordable, competitive prices.
@@ -38,9 +38,19 @@ const OurProducts = () => {
                             </p>
                         </div>
                     </div>
-                    {/* Image will be added here for RCN */}
-                    <div className='h-[200px] md:h-[400px] relative rounded-xl'>
-                        <Image src="/imgs/cashew.jpg" fill alt="Raw Cashew Nut (RCN)" className="w-full h-auto rounded-xl" />
+                    <div className="grid grid-cols-2 gap-4">
+                        <div className="relative h-48">
+                            <Image src="/imgs/img2 (1).jpeg" layout="fill" objectFit="cover" alt="Cashew Collage Image 1" className="rounded-lg" />
+                        </div>
+                        <div className="relative h-48">
+                            <Image src="/imgs/img2 (2).jpeg" layout="fill" objectFit="cover" alt="Cashew Collage Image 2" className="rounded-lg" />
+                        </div>
+                        <div className="relative h-48">
+                            <Image src="/imgs/img2 (5).jpeg" layout="fill" objectFit="cover" alt="Cashew Collage Image 3" className="rounded-lg" />
+                        </div>
+                        <div className="relative h-48">
+                            <Image src="/imgs/img2 (4).jpeg" layout="fill" objectFit="cover" alt="Cashew Collage Image 4" className="rounded-lg" />
+                        </div>
                     </div>
                 </div>
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">

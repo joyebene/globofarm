@@ -13,7 +13,7 @@ const ContactPage = () => {
     subject: "",
     message: ""
   });
-  
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -27,13 +27,13 @@ const ContactPage = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 2000));
-    
+
     setIsSubmitting(false);
     setIsSubmitted(true);
-    
+
     // Reset form after 3 seconds
     setTimeout(() => {
       setIsSubmitted(false);
@@ -55,6 +55,7 @@ const ContactPage = () => {
       details: ["T10, 04 Paradise Court Idu", "Abuja, FCT, Nigeria"],
       color: "green"
     },
+   
     // {
     //   icon: Phone,
     //   title: "Call Us",
@@ -90,7 +91,7 @@ const ContactPage = () => {
       {/* HERO SECTION */}
       <section className="relative w-full py-24 bg-linear-to-br from-black to-gloto-dark overflow-hidden">
         <div className="absolute inset-0 bg-[url('/home/hero-img1.jpg')] opacity-20"></div>
-        
+
         <div className="relative z-5 max-w-6xl mx-auto px-6 text-start pt-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -100,11 +101,11 @@ const ContactPage = () => {
             <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-gloto-gold text-sm font-semibold mb-6 border border-gloto-gold">
               Let&apos;s Connect
             </div>
-            
+
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
               Get in Touch With Us
             </h1>
-            
+
             <p className="text-green-100 text-sm md:text-base max-w-2xl">
               Whether you&apos;re interested in partnerships, products, or simply want to learn more about sustainable farming, we&apos;re here to help
             </p>
@@ -128,9 +129,9 @@ const ContactPage = () => {
                 <div className="w-12 h-12 md:w-14 md:h-14 bg-green-100 rounded-xl flex items-center justify-center mb-4">
                   <info.icon className="w-6 h-6 md:w-7 md:h-7 text-green-700" />
                 </div>
-                
+
                 <h3 className="text-lg font-bold text-gray-900 mb-3">{info.title}</h3>
-                
+
                 {info.details.map((detail, dIdx) => (
                   <p key={dIdx} className="text-gray-600 text-sm leading-relaxed">
                     {detail}
@@ -284,13 +285,12 @@ const ContactPage = () => {
                   disabled={isSubmitting || isSubmitted}
                   whileHover={{ scale: isSubmitting || isSubmitted ? 1 : 1.02 }}
                   whileTap={{ scale: isSubmitting || isSubmitted ? 1 : 0.98 }}
-                  className={`w-full py-4 px-8 rounded-xl font-bold text-lg shadow-lg transition-all duration-300 flex items-center justify-center gap-3 ${
-                    isSubmitted
+                  className={`w-full py-4 px-8 rounded-xl font-bold text-lg shadow-lg transition-all duration-300 flex items-center justify-center gap-3 ${isSubmitted
                       ? "bg-gloto-dark text-white"
                       : isSubmitting
-                      ? "bg-gray-400 text-white cursor-not-allowed"
-                      : "bg-gloto-dark text-white hover:bg-green-800 hover:shadow-xl"
-                  }`}
+                        ? "bg-gray-400 text-white cursor-not-allowed"
+                        : "bg-gloto-dark text-white hover:bg-green-800 hover:shadow-xl"
+                    }`}
                 >
                   {isSubmitted ? (
                     <>
@@ -321,7 +321,7 @@ const ContactPage = () => {
               className="lg:col-span-2"
             >
               <div className="sticky top-8 space-y-8">
-                
+
                 {/* Why Contact Us Card */}
                 <div className="bg-linear-to-br from-green-700 to-green-900 rounded-2xl p-8 text-white">
                   <h3 className="text-2xl font-bold mb-4">Why Partner With Us?</h3>
@@ -353,12 +353,12 @@ const ContactPage = () => {
                   </ul>
                 </div>
 
-                  {/* Map */}
-               <div className="bg-gray-100 rounded-2xl overflow-hidden shadow-lg h-80 relative">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.019184513598!2d7.366411474833386!3d9.062014091000652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e75c71d505b7b%3A0xc31669e984937e4!2sThe%20Paradise%20Court%20IDU!5e0!3m2!1sen!2sng!4v1762610034433!5m2!1sen!2sng" width="100%" height="100%"     allowFullScreen
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"></iframe>
-              </div>
+                {/* Map */}
+                <div className="bg-gray-100 rounded-2xl overflow-hidden shadow-lg h-80 relative">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.019184513598!2d7.366411474833386!3d9.062014091000652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e75c71d505b7b%3A0xc31669e984937e4!2sThe%20Paradise%20Court%20IDU!5e0!3m2!1sen!2sng!4v1762610034433!5m2!1sen!2sng" width="100%" height="100%" allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
                 {/* Quick Stats */}
                 <div className="grid grid-cols-2 gap-4">
