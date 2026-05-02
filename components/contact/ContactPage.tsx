@@ -55,7 +55,12 @@ const ContactPage = () => {
       details: ["T10, 04 Paradise Court Idu", "Abuja, FCT, Nigeria"],
       color: "green"
     },
-   
+    {
+      icon: MapPin,
+      title: "Uk address",
+      details: ["22 Savick Avenue, Bolton, UK. BL2 6JJ"],
+      color: "blue"
+    },
     // {
     //   icon: Phone,
     //   title: "Call Us",
