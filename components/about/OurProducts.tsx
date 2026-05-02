@@ -121,16 +121,16 @@ const OurProducts = () => {
                     {/* Image will be added here for Ginger */}
                     <div className="grid grid-cols-2 gap-4">
                         <div className="relative h-48">
-                            <Image src="/imgs/gingerdry (1).jpg" layout="fill" objectFit="cover" alt="Ginger Collage Image 1" className="rounded-lg" />
+                            <Image src="/imgs/gingerdry (1).png" layout="fill" objectFit="cover" alt="Ginger Collage Image 1" className="rounded-lg" />
                         </div>
                         <div className="relative h-48">
-                            <Image src="/imgs/gingerdry (2).jpg" layout="fill" objectFit="cover" alt="Ginger Collage Image 2" className="rounded-lg" />
+                            <Image src="/imgs/gingerdry (2).png" layout="fill" objectFit="cover" alt="Ginger Collage Image 2" className="rounded-lg" />
                         </div>
                         <div className="relative h-48">
-                            <Image src="/imgs/gingerdry (3).jpg" layout="fill" objectFit="cover" alt="Ginger Collage Image 3" className="rounded-lg" />
+                            <Image src="/imgs/gingerdry (3).png" layout="fill" objectFit="cover" alt="Ginger Collage Image 3" className="rounded-lg" />
                         </div>
                         <div className="relative h-48">
-                            <Image src="/imgs/gingerdry (4).jpg" layout="fill" objectFit="cover" alt="Ginger Collage Image 4" className="rounded-lg" />
+                            <Image src="/imgs/gingerdry (4).png" layout="fill" objectFit="cover" alt="Ginger Collage Image 4" className="rounded-lg" />
                         </div>
                     </div>
                 </div>
