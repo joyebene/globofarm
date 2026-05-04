@@ -96,7 +96,7 @@ const OurProducts = () => {
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
                     <div className="flex flex-col justify-center space-y-4">
                         <div className="space-y-2">
-                            <h3 className="text-2xl font-bold test-gray-900">Ginger</h3>
+                            <h3 className="text-2xl font-bold text-gray-900">Ginger</h3>
                             <p className="text-gray-500">
                                 We source premium fresh ginger directly from experienced farmers
                                 and carefully select only high-grade produce.
