@@ -16,7 +16,7 @@ const OurProducts = () => {
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
                     <div className="flex flex-col justify-center space-y-4">
                         <div className="space-y-2">
-                            <h3 className="text-2xl font-bold">Raw Cashew Nut (RCN)</h3>
+                            <h3 className="text-2xl font-bold text-gray-900">Raw Cashew Nut (RCN)</h3>
                             <p className="text-gray-500">
                                 We specialize in high-quality Raw Cashew Nuts with 180 to 220 nut counts
                                 and a strong Kernel Output Ratio (KOR).
@@ -71,7 +71,7 @@ const OurProducts = () => {
                     </div>
                     <div className="flex flex-col justify-center space-y-4 md:order-2">
                         <div className="space-y-2">
-                            <h3 className="text-2xl font-bold">Palm Oil</h3>
+                            <h3 className="text-2xl font-bold text-gray-900">Palm Oil</h3>
                             <p className="text-gray-500">
                                 We cultivate and partner with trusted palm plantations to source
                                 premium fresh fruit bunches for quality palm oil production.
@@ -96,7 +96,7 @@ const OurProducts = () => {
                 <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
                     <div className="flex flex-col justify-center space-y-4">
                         <div className="space-y-2">
-                            <h3 className="text-2xl font-bold">Ginger</h3>
+                            <h3 className="text-2xl font-bold test-gray-900">Ginger</h3>
                             <p className="text-gray-500">
                                 We source premium fresh ginger directly from experienced farmers
                                 and carefully select only high-grade produce.
