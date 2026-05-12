@@ -57,13 +57,13 @@ const OurProducts = () => {
                     {/* Image will be added here for Palm Oil */}
                     <div className="grid grid-cols-2 gap-4 order-2">
                         <div className="relative h-48">
-                            <Image src="/imgs/palmoil (1).webp" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 1" className="rounded-lg" />
+                            <Image src="/imgs/palmoil (2).jpg" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 1" className="rounded-lg" />
                         </div>
                         <div className="relative h-48">
                             <Image src="/imgs/palmoil (2).png" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 2" className="rounded-lg" />
                         </div>
                         <div className="relative h-48">
-                            <Image src="/imgs/palmoil (3).jpg" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 3" className="rounded-lg" />
+                            <Image src="/imgs/palmoils (3).jpg" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 3" className="rounded-lg" />
                         </div>
                         <div className="relative h-48">
                             <Image src="/imgs/palmoil (1).png" layout="fill" objectFit="cover" alt="Palm Oil Collage Image 4" className="rounded-lg" />

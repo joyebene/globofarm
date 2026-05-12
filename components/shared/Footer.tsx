@@ -12,18 +12,18 @@ const Footer = () => {
         {/* Logo & About */}
         <div>
           <div className="flex items-center gap-1 md:gap-2">
-          <div className='relative w-10 h-10 bg-gloto-dark rounded-full shadow shadow-gloto-gold'>
-            <Image
-              src="/gloto-logo.jpg"
-              alt="Gloto Farms Logo"
-              fill
-              className="object-cover rounded-full"
-            />
-        
+            <div className='relative w-10 h-10 bg-gloto-dark rounded-full shadow shadow-gloto-gold'>
+              <Image
+                src="/gloto-logo.jpg"
+                alt="Gloto Farms Logo"
+                fill
+                className="object-cover rounded-full"
+              />
+
             </div>
             <h3 className="text-2xl font-bold text-gloto-mid">GLOTO FARMS</h3>
           </div>
-         
+
           <p className="mt-4 text-gray-300 text-sm leading-relaxed">
             Nurturing the land, <span className="text-gloto-gold"> Nourishing Lives. <br /></span>
             We are committed to sustainable agriculture, food security,
@@ -59,6 +59,12 @@ const Footer = () => {
           <p className="text-gray-300 text-sm mt-1">T10, 04 Paradise Court Idu</p>
           <p className="text-gray-300 text-sm">Abuja, Nigeria</p>
           <p className="text-gray-300 text-sm mt-1">info@glotofarms.com</p>
+
+
+          <h5 className="font-semibold mt-8 mb-4"> Uk address</h5>
+          <p>22 Savick Avenue, Bolton, UK. BL2 6JJ
+            blue</p>
+
 
           <div className="flex items-center gap-3 mt-4">
             <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition">
