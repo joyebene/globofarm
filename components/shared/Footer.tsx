@@ -62,7 +62,7 @@ const Footer = () => {
 
 
           <h5 className="font-semibold mt-8 mb-4"> Uk address</h5>
-          <p>22 Savick Avenue, Bolton, UK. BL2 6JJ
+          <p className="mb-2">22 Savick Avenue, Bolton, UK. BL2 6JJ
             blue</p>
 
 
