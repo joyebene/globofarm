@@ -28,7 +28,7 @@ const Vision = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
-                        className="group relative bg-white p-6 md:p-10 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-green-100 hover:border-green-300"
+                        className="group relative bg-white p-6 md:p-10 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-green-100 hover:border-green-300"
                     >
                         <div className="absolute top-8 right-8 w-12 h-12 md:w-14 md:h-14 bg-green-100 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                             <Leaf className="w-6 h-6 md:w-8 md:h-8 text-green-700" />
