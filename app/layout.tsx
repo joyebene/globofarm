@@ -15,11 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://glotofarms.com"),
   title: {
-    default: 'Glotofarms - Sustainable Agriculture in Nigeria',
-    template: '%s | Glotofarms',
+    default: 'Gloto Farms - Sustainable Agriculture in Nigeria',
+    template: '%s | Gloto Farms',
   },
-  description: 'Glotofarms is a leading agricultural farm in Nigeria, committed to sustainable practices and producing high-quality agricultural products. Explore our farm and discover the future of agriculture.',
+  description: 'Gloto Farms is a leading agricultural farm in Nigeria, committed to sustainable practices and producing high-quality agricultural products. Explore our farm and discover the future of agriculture.',
   keywords: ['agriculture', 'farming', 'sustainable agriculture', 'Nigerian agriculture', 'Glotofarms', 'farm in Nigeria'],
 };
 
